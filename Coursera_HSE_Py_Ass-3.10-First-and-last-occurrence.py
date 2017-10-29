@@ -4,4 +4,7 @@ i = si
 if i != -1:
     while i < w.find('f', i + 1):
         i = w.find('f', i + 1)
-    print(si, i)
+    if i > si:
+        print(si, i)
+    else:
+        print(si)
