@@ -1,5 +1,7 @@
-i = input().find('f')
+w = input()
+si = w.find('f')
+i = si
 if i != -1:
-    print(i)
-else:
-    print(i)
+    while i < w.find('f', i + 1):
+        i = w.find('f', i + 1)
+    print(si, i)
